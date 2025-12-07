@@ -1,0 +1,32 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #f5e9ff;
+}
+
+.gallery:hover {
+  border: 1px solid pink;
+  transform: scale(1.05);   /* Subtle hover animation */
+}

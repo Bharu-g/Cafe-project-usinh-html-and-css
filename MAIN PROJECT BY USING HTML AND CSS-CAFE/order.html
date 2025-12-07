@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+   <main >
+    <section class="order-section">
+        <h2>Place Your Order</h2>
+        <p>Freshly brewed coffees and delicious treats, made just for you.</p>
+        <form action="submit.html" method="post">
+            <h3>Customer Details:</h3>
+
+            <label for="firstname">First Name:</label>
+            <input type="text" name="FirstName" id="firstname" placeholder="Enter your name" required minlength="3">
+            <br><br>
+            <label for="surname">Last Name:</label>
+            <input type="text" name="LastName" id="surname" placeholder="Enter your lastname" required minlength="3">
+            <br><br>
+            <label for="tele">Phone Number:</label>
+            <input type="tel" name="phonenumber" id="tele" placeholder="9989775586" required minlength="10" maxlength="14">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="cafe@gmail.com">
+            <br><br>
+            
+            <!-- order items -->
+             <h3>Select Items:</h3>
+
+             <label for="coffee">Coffee Section:</label>
+             <select name="coffee" id="coffee">
+                <option value="">Enter your Choice</option>
+                <option value="1">Baby Cappuccino</option>
+                <option value="">Sweet Latte</option>
+                <option value="">Caramel Kiss Latte</option>
+                <option value="">Chocolate Hug Mocha</option>
+                <option value="">Iced Vanilla Coffee</option>
+                <option value="">Cold Brew Cutie</option>
+             </select>
+
+             <br><br>
+
+             <label for="drinks">Drinks Section:</label>
+             <select name="drinks" id="drinks">
+                <option value="">Enter your Choice</option>
+                <option value="1">Honey Lemon Sparkle</option>
+                <option value="">Peachy Iced Tea</option>
+                <option value="">Blossom Hot Chocolate</option>
+                <option value="">Strawberry Dream Shake</option>
+                <option value="">Mango Sunshine Smoothie</option>
+                <option value="">Minty Fresh Mojito</option>
+             </select>
+
+             <br><br>
+
+             <label for="dessert">Dessert Section:</label>
+             <select name="dessert" id="dessert">
+                <option value="0">Enter your Choice</option>
+                <option value="1">Melty Lava Heart Cake</option>
+                <option value="2">Blueberry Cloud Cheesecake</option>
+                <option value="3">Pink Velvet Pastry</option>
+                <option value="4">Tiramisu Love Cup</option>
+                <option value="5">Mini Sugar Cupcakes</option>
+             </select>
+             
+             <br><br>
+
+             <label for="burger">Burger Section:</label>
+             <select name="burger" id="burger">
+                <option value="0">Enter your Choice</option>
+                <option value="1">Veggie Love Burger</option>
+                <option value="2">Cheesy Smile Burger</option>
+                <option value="3">Happy Fries </option>
+                <option value="4">Garlic Butter Bites</option>
+                <option value="5">Mini Crispy Burger</option>
+             </select>
+             
+             <br><br>
+
+             <label for="pasta">Pasta Section:</label>
+             <select name="pasta" id="pasta">
+                <option value="0">Enter your Choice</option>
+                <option value="1">Creamy Alfredo Bowl</option>
+                <option value="2">Tomato Hug Pasta</option>
+                <option value="3">Cheese Cloud Pasta</option>
+                <option value="4">BBQ Fun Pasta</option>
+             </select>
+             
+             <br><br>
+
+             <h3>Quantity:</h3>
+             <label for="quantity">Quantity:</label>
+             <input type="number" name="quantity" id="quantity">
+
+             <br><br>
+
+             <h3>Additional Notes:</h3>
+             <label for="n">Additional Notes</label>
+             <textarea name="notes" id="n" placeholder="Add Your Own Requirements of YOur Order"></textarea>
+
+             <br><br>
+
+             <button type="submit">Submit Order</button>
+
+             
+        </form>
+
+    </section>
+   </main>
+</body>
+</html>

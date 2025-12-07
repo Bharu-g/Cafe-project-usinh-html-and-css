@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    line-height: 2.5;
+    font-size: 25px;
+    background-color:  #f5e9ff;
+}
+h4{
+    font-style: oblique;
+}
+
+ul{
+    list-style-type: none;
+}

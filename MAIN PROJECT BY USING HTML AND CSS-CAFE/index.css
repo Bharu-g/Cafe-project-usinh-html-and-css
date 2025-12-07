@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2.5;
+  
+}
+
+body{
+  /* background-image: url(img/latte.avif);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color:  #f5e9ff;
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+}
+h1{
+  text-transform: uppercase;
+  font-style: italic;
+  color: mediumvioletred;
+
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgray
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+
+.navbar a{
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: hotpink;
+}
+.class1{
+  
+  text-align: center;
+}
+.class1 h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.class1 p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.class1 a{
+  text-decoration: none;
+  
+  border-radius: 18px;
+  padding: 10px;
+  background-color: linen;
+  
+}
+
+.about{
+
+  text-align: center;
+  margin: 20px;
+}
+
+.about h2{
+  padding: 10px;
+} 
+
+.about p{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.feature{
+  /* float: left; */
+  font-size: 20px;
+}
+
+.footer{
+  text-align: center;
+ 
+  margin: 20px;
+}
+
+.social li{
+  list-style-type: none;
+  transition: 0.3s;
+}
+
+.social li:hover{
+  color: red;
+}

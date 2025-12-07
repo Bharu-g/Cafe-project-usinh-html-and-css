@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.coffee{
+    background-image: url(img/latte.avif);
+   background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+    line-height: 2.5;
+
+}
+
+.coffee h5{
+    font-style: italic;
+    text-decoration: cadetblue;
+    font-size: 40px;
+    text-shadow: 5px 5px 7px blanchedalmond;
+    
+}
+
+.coffee ul{
+    list-style-type: none;
+
+}
